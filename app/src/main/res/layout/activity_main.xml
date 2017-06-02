@@ -32,41 +32,44 @@
 
     <EditText
         android:id="@+id/editText_firstInput"
-        android:layout_width="125dp"
+        android:layout_width="0dp"
         android:layout_height="45dp"
         android:ems="10"
         android:hint="First Input"
         android:inputType="number"
-        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <EditText
         android:id="@+id/editText_secondInput"
-        android:layout_width="125dp"
+        android:layout_width="0dp"
         android:layout_height="45dp"
         android:ems="10"
         android:hint="Second Input"
         android:layout_below="@+id/editText_firstInput"
         android:inputType="number"
-        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="51dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:text="Result"
-        tools:layout_editor_absoluteX="16dp"
+        android:layout_below="@+id/editText_secondInput"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="118dp" />
 
     <TextView
         android:id="@+id/textview_result"
-        android:layout_width="wrap_content"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:text="Result"
+        android:layout_below="@+id/textView"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="144dp" />
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="135dp" />
 
     <Button
         android:id="@+id/button_plus"
